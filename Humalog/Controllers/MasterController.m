@@ -137,6 +137,33 @@
 {
     [whitepaperController.view removeFromSuperview];
     [self.view insertSubview:slideController.view belowSubview:gestureView];
+    [slideController menubarViewDidPressApertura];
+    
+    // Delegation
+    toolbarView.delegate = slideController;
+    menubarView.delegate = slideController;
+    [toolbarView hide];
+}
+
+- (void)loadSlideCierre
+{
+    [whitepaperController.view removeFromSuperview];
+    [self.view insertSubview:slideController.view belowSubview:gestureView];
+    [slideController menubarViewDidPressCierre];
+    
+    // Delegation
+    toolbarView.delegate = slideController;
+    menubarView.delegate = slideController;
+    [toolbarView hide];
+}
+
+
+
+- (void)loadSlideIPP
+{
+    [whitepaperController.view removeFromSuperview];
+    [self.view insertSubview:slideController.view belowSubview:gestureView];
+    [slideController menubarViewDidPressIPP];
     
     // Delegation
     toolbarView.delegate = slideController;

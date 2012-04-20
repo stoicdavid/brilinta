@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84C9DF8415009F6700E16B3B"
-               BuildableName = "Humalog.app"
+               BuildableName = "Brilinta.app"
                BlueprintName = "Humalog"
                ReferencedContainer = "container:Humalog.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84C9DF8415009F6700E16B3B"
-            BuildableName = "Humalog.app"
+            BuildableName = "Brilinta.app"
             BlueprintName = "Humalog"
             ReferencedContainer = "container:Humalog.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84C9DF8415009F6700E16B3B"
-            BuildableName = "Humalog.app"
+            BuildableName = "Brilinta.app"
             BlueprintName = "Humalog"
             ReferencedContainer = "container:Humalog.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84C9DF8415009F6700E16B3B"
-            BuildableName = "Humalog.app"
+            BuildableName = "Brilinta.app"
             BlueprintName = "Humalog"
             ReferencedContainer = "container:Humalog.xcodeproj">
          </BuildableReference>

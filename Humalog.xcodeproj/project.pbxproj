@@ -108,7 +108,7 @@
 		849891EF152151200038DAA7 /* ONSET and OFFSET study, 2009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ONSET and OFFSET study, 2009.png"; sourceTree = "<group>"; };
 		849891F0152151200038DAA7 /* PLATO trial, 2009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLATO trial, 2009.png"; sourceTree = "<group>"; };
 		849891F1152151200038DAA7 /* Wallentin Spanish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wallentin Spanish.png"; sourceTree = "<group>"; };
-		84C9DF8515009F6700E16B3B /* Humalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C9DF8515009F6700E16B3B /* Brilinta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brilinta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C9DF8915009F6700E16B3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84C9DF8B15009F6700E16B3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84C9DF8D15009F6700E16B3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -264,7 +264,7 @@
 		84C9DF8615009F6700E16B3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84C9DF8515009F6700E16B3B /* Humalog.app */,
+				84C9DF8515009F6700E16B3B /* Brilinta.app */,
 				84C9DFA015009F6700E16B3B /* HumalogTests.octest */,
 			);
 			name = Products;
@@ -485,7 +485,7 @@
 			);
 			name = Humalog;
 			productName = Humalog;
-			productReference = 84C9DF8515009F6700E16B3B /* Humalog.app */;
+			productReference = 84C9DF8515009F6700E16B3B /* Brilinta.app */;
 			productType = "com.apple.product-type.application";
 		};
 		84C9DF9F15009F6700E16B3B /* HumalogTests */ = {
@@ -732,7 +732,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Humalog/Humalog-Prefix.pch";
 				INFOPLIST_FILE = "Humalog/Humalog-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Brilinta;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -743,7 +743,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Humalog/Humalog-Prefix.pch";
 				INFOPLIST_FILE = "Humalog/Humalog-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Brilinta;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

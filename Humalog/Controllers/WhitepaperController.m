@@ -75,6 +75,7 @@
 - (void)menubarViewDidPressEstudios
 {
     [documentView removeFromSuperview];
+    
 }
 
 - (void)menubarViewDidPressApertura
@@ -84,12 +85,26 @@
     
 }
 
+- (void)menubarViewDidPressCierre
+{
+    if ([self.parentViewController respondsToSelector:@selector(loadSlideCierre)])
+        [self.parentViewController performSelector:@selector(loadSlideCierre)];
+    
+}
+
+- (void)menubarViewDidPressIPP
+{
+    if ([self.parentViewController respondsToSelector:@selector(loadSlideIPP)])
+        [self.parentViewController performSelector:@selector(loadSlideIPP)];
+    
+}
+
 #pragma mark - View lifecycle
 
 - (void)loadView
 {
     self.view = [[UIView alloc] initWithFrame:[Viewport contentArea]];
-    self.view.backgroundColor = [UIColor purpleColor];
+    self.view.backgroundColor = [UIColor darkGrayColor];
     
     iCarousel *carousel = [[iCarousel alloc] initWithFrame:self.view.bounds];
     carousel.type = iCarouselTypeRotary;

@@ -99,6 +99,7 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"pdf"];
     WebContentView *webView = [[WebContentView alloc] initWithFrame:kPreviewSize];
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:path]]];
+    webView.scalesPageToFit=YES;
     return webView;
 }
 
